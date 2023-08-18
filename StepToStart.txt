@@ -1,7 +1,15 @@
-echo "# pro-shopping" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin git@github.com-nlgroupcom:nlgroupcom/pro-shopping.git
-git push -u origin main
+1. Create git repository & local repository & linking them
+	echo "# pro-shopping" >> README.md
+	git init
+	git add README.md
+	git commit -m "first commit"
+	git branch -M main
+	git remote add origin git@github.com-nlgroupcom:nlgroupcom/pro-shopping.git
+	git push -u origin main
+2. Create reactjs project
+	`npx create-nx-workspace@latest`
+	`npx nx g @nrwl/react:component shop`
+	`npx nx g @nrwl/workspace:ci-wrorkflow`
+
+
+3. For the second commit
